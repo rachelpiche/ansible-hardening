@@ -276,10 +276,25 @@ security_ntp_server_options: iburst
 security_ntp_sync_rtc: false
 # Chrony limits access to clients that are on certain subnets.  Adjust the
 # following subnets here to limit client access to chrony servers.
-security_allowed_ntp_subnets:
-  - 10/8
-  - 192.168/16
-  - 172.16/12
+  - 
+security_allowed_ntp_subnets
+  - 68.4.130.41
+  - 68.1.54.103
+  - 173.66.114.186
+  - 69.49.128.116
+  - 108.3.175.117
+  - 73.237.68.48
+  - 208.104.50.251
+  - 216.246.143.142
+  - 108.56.160.180
+  - 73.230.122.130
+  - 68.4.133.241
+  - 138.29.11.0/24
+  - 216.225.175.0/24
+  - 174.82.35.78
+  - 71.126.179.136
+  - 73.230.122.130
+
 # Listen for NTP requests only on local interfaces.
 security_ntp_bind_local_interfaces_only: yes
 # Restrict mail relaying.
